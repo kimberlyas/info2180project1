@@ -1,3 +1,5 @@
+window.onload = function()
+{
 /* Building a Cash Register */
 function StaffMember(name,discountPercent){
     this.name = name;
@@ -106,3 +108,4 @@ function add(firstName,lastName,email,phoneNumber)
 //Create a new contact
 add("Kim","Collins","kim.collins@gmail.com","929-0934");
 list();
+}
